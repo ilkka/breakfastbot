@@ -8,7 +8,8 @@ defmodule Tontsa.Application do
   def start(_type, _args) do
     children = [
       # Starts a worker by calling: Tontsa.Worker.start_link(arg)
-      # {Tontsa.Worker, arg}
+      # {Tontsa.Worker, arg}}
+      {Plug.Cowboy, scheme: :http, plug: Tontsa.Router, options: [port: 4000]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

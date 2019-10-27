@@ -24,10 +24,6 @@ jobs:
     if: success()
     runs-on: ubuntu-latest
     steps:
-      - uses: s0/git--publish-subdir-action@v1.0.0
-        env:
-          REPO: ${{ secrets.DEPLOY_GIT_REPO }}
-          BRANCH: master
-          FOLDER: .
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          KNOWN_HOSTS_FILE: resources/known_hosts
+      - uses: ilkka/git-https-push-action@master
+        with:
+          args: ${{ secrets.PUSH_REMOTE }}

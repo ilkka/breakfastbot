@@ -1,5 +1,5 @@
 [package]
-name = "tontsa"
+name = "tontsabot"
 version = "0.1.0"
 authors = ["Ilkka Poutanen <ilkka.poutanen@futurice.com>"]
 edition = "2018"

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a588b10-1eb9-415e-bf2b-78e386bff8ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ci-pipeline.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-pipeline.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="bHplULEb" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1U1z0KGlWmSdeb71Tu3XHvR6VqB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a588b10-1eb9-415e-bf2b-78e386bff8ce" name="Default Changelist" comment="" />
+      <created>1574538664716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574538664716</updated>
+      <workItem from="1574538667759" duration="409000" />
+      <workItem from="1574539100064" duration="5235000" />
+      <workItem from="1574618722714" duration="2901000" />
+    </task>
+    <task id="LOCAL-00001" summary="Return blocks onboarding msg&#10;&#10;Initial commit with a single handler for GET / which returns a breakfast crew onboarding message using the Slack Blocks UI.">
+      <created>1574542415080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574542415080</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Break stuff into files">
+      <created>1574579202646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574579202646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Start adding image build&#10;&#10;Multistage as it should be. Rather interesting hoops to jump through in order to get deps to download and build in their own step: a dummy sourcefile is needed, _and_ the build of the main package needs to be explicitly cleaned afterwards, or the old build artefacts will stick around and the dummy will get rebuilt.">
+      <created>1574620785185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574620785185</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Return blocks onboarding msg&#10;&#10;Initial commit with a single handler for GET / which returns a breakfast crew onboarding message using the Slack Blocks UI." />
+    <MESSAGE value="Break stuff into files" />
+    <MESSAGE value="Start adding image build&#10;&#10;Multistage as it should be. Rather interesting hoops to jump through in order to get deps to download and build in their own step: a dummy sourcefile is needed, _and_ the build of the main package needs to be explicitly cleaned afterwards, or the old build artefacts will stick around and the dummy will get rebuilt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Start adding image build&#10;&#10;Multistage as it should be. Rather interesting hoops to jump through in order to get deps to download and build in their own step: a dummy sourcefile is needed, _and_ the build of the main package needs to be explicitly cleaned afterwards, or the old build artefacts will stick around and the dummy will get rebuilt." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

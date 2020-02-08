@@ -1,0 +1,35 @@
+GET http://localhost:8000
+Accept: application/json
+
+###
+
+GET http://localhost:8000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+

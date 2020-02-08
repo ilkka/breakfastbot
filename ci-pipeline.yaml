@@ -1,12 +1,23 @@
+---
+resources:
+  - name: breakfastbot-sources
+    type: git
+    icon: github-circle
+    source:
+      url: https://github.com/ilkka/breakfastbot
+
 jobs:
-- name: hello-world
-  plan:
-  - task: say-hello
-    config:
-      platform: linux
-      image_resource:
-        type: docker-image
-        source: {repository: alpine}
-      run:
-        path: echo
-        args: ["Hello, world!"]
+  - name: build_image
+    public: true
+    plan:
+      - get: breakfastbot-sources
+        trigger: true
+      - task: say-hello
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: alpine}
+          run:
+            path: echo
+            args: ["Hello, world!"]
